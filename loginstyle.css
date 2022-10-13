@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/128000/128940-Ruta-Del-Vino--Salta-Wine-Route-.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+main {
+  width: 345px;
+  text-align: left;
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin: 180px auto;
+  padding: 40px 20px 40px 20px;
+  color: rgb(53, 54, 56);
+  background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10.5px);
+-webkit-backdrop-filter: blur(10.5px);
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+.formulario_input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: auto;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.786);
+}
+
+.boton,.botonAcc{
+
+  color: #fff;
+  width: 268px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 0px 0px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.botonAcc{
+  background-color: rgba(24, 11, 84, 0.501);
+}
+.boton{
+  background-color: rgba(227, 49, 49, 0.501);
+}
+#contraseñaolvidada {
+  background-color: rgba(240, 236, 232, 0);
+  color: #000;
+  width: 268px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 4px 0px 0px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
